@@ -20,10 +20,12 @@ class AddProduct extends React.Component {
         e.preventDefault();
         if (this.state.input) {
             this.props.addProduct({
+                id: Date.now().toString(),
                 name: this.state.input,
                 priority: this.state.priority,
-                id: Date.now().toString(),
-                availability: this.state.availability
+                availability: this.state.availability,
+                createdAt: new Date().toString(),
+                changed: [new Date().toString()]
             })
             this.setState({ input: '' })
         }

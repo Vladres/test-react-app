@@ -1,5 +1,5 @@
 const initialState = {
-    products: JSON.parse(localStorage.getItem('products')),
+    products: JSON.parse(localStorage.getItem('products'))
 }
 
 export default (state = initialState, action) => {

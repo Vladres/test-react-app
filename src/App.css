@@ -6,7 +6,7 @@
     margin-top: 20px;
 }
 
-.btn-delete {
+.icon-btn {
     outline-width: 0 !important;
 }
 
@@ -18,4 +18,8 @@
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
+}
+
+.edit-dialog{
+    min-width: 400px !important; 
 }
